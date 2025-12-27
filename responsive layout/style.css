@@ -46,6 +46,7 @@ nav ul li a {
   position: relative;
   padding: 3rem;
   color: white;
+  height: 40vh;
 }
 .bg {
   position: absolute;
@@ -88,4 +89,57 @@ nav ul li a {
   color: white;
   font-size: 1.75rem;
 }
+#newsletter button{
+  height: 2.25rem;
+  font-size: 1rem;
+  background-color: #e8491d;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 0.5rem;
+}
+#newsletter input{
+  height: 2.25rem;
+  font-size: 1rem;
+  padding: 0.5rem;
+}
 
+/* Services */
+#services {
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: space-evenly;
+}
+.box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.box p {
+  text-align: center;
+}
+.box i {
+  font-size: 5rem;
+}
+.fa-html5{
+  color: #E5532D;
+}
+.fa-css3-alt{
+  color: #0874BC;
+}
+.fa-node-js{
+  color: #8ED11E;
+}
+
+/* Footer */
+footer{
+  position: fixed;
+  bottom: 0px;
+  padding: 2rem;
+  background-color: #e8491d;
+  width: 100%;
+  color: white;
+  text-align: center;
+  font-size: 1.5rem;
+} 
